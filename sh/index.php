@@ -64,7 +64,6 @@ if($request->get("s")){
 		$table .= '</tbody>
 			</table>';
 		echo $table;
-		//LocalRedirect('/'.$rsData['UF_LINK'], false, bExternal);
 	} else {
 		echo "Несуществующая ссылка для сбора статистики";
 	}
